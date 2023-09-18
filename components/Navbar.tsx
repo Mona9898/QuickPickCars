@@ -12,7 +12,7 @@ const Navbar = () => (
             justify-center items-center">
                 <Image
                  src = "/logo.svg"
-                 alt= "Car Hub Logo"
+                 alt= "Car Rental Logo"
                  width={118}
                  height={18}
                  className="object-contain"
@@ -22,7 +22,7 @@ const Navbar = () => (
             <CustomButton
                 title="Sign In Now"
                 btnType='button'
-                containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
+                containerStyles='text-orange-500 rounded-full bg-white min-w-[130px]'
             />
         </nav>
     </header>
